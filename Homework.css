@@ -1,0 +1,39 @@
+header {
+    height: 25px;
+    width: 100%;
+    background-color: blueviolet;
+    margin: 5px, 0px, 100px, 0px;
+    padding: 5px, 0px, 5px, 0px;
+}
+body {
+    background-color: darkblue;
+}
+.container {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    align-self: center;
+}
+/* tried heaps of positioning options to try to centre this justify-conent/positioning/mrgins and padding - was weirdly non-responsive to padding and margin changes */
+#QuestionBox {
+    height: 150px;
+    width: 300px;
+}
+#AnswerButtons {
+    width: 290px;
+}
+#HScores {
+    font-size: 20px;
+    float: left;
+}
+#Timer {
+    font-size: 20px;
+    float: right;
+}
+.bttnGrd {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px, 0;
+}
