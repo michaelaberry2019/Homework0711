@@ -65,10 +65,10 @@ function setStatusClass(element, correct) {
         element.classList.add('wrong')
     }
 }
-function clearStatusClass(element)
-element.classList.remove('correct')
-element.classList.remove('wrong')
-var questions = [
+function clearStatusClass(element) {
+    element.classList.remove('correct')
+    element.classList.remove('wrong')
+    var questions = [
     {
         question: 'Did you finish w1?',
         answers: [
@@ -96,5 +96,15 @@ var questions = [
             { text: 'yes', correct: true },
             { text: 'no', correct: false },
         ]
-    },
-]
+    }
+}
+// timer??
+var timer = setInterval 1 function() {
+    if(count 55){
+        count ++;
+        document.querySelector('span'), textContent = 
+        count;    
+        } else {
+            clearInterval(timer)
+        }
+// }, 1000) ???
